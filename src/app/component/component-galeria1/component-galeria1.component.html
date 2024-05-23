@@ -1,0 +1,9 @@
+
+
+<div class="collage ">
+  <div *ngFor="let image of images" class="collage-item"
+    [ngClass]="{'expanded': expandedImage === image, 'clicked': expandedImage === image}"
+    (mouseenter)="expandImage(image)" (mouseleave)="shrinkImage()" (click)="setExpandedImage(image)">
+    <img [src]="image.src" [alt]="image.alt">
+  </div>
+</div>

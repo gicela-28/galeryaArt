@@ -1,0 +1,14 @@
+
+.left-side{
+  background-image: url(../../../assets/—Pngtree—pure\ watercolor\ gradient\ colorful\ background_964413.jpg);
+  background-position: bottom;
+  height: 160px;
+  object-fit: cover;
+  object-position: 50% 30%;
+
+}
+
+.angular-logo{
+  margin-top: 40px;
+  height: 80px;
+}
